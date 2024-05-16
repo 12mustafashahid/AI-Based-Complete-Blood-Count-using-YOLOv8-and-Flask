@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(/static/AI_Background_2024-04-08_450273943052201.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: white;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    display: flex;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    margin: 10px 20px;
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content{
+    padding: 40px 10px;
+}
+.content h1{
+    padding: 25px 0px;
+    font-size: 75px;
+}
+.content p{
+    padding: 5px 0px;
+    font-size: 25px;
+}
+.content p span{
+    color:gold;
+}
+
+.bar2{
+    position:absolute;
+    right: 32%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+.bar2b{
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-right: 80px;
+   
+}
+.bar2b a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.botmenu{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.botimage{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding-top: 10px;
+}
+.borderdiv{
+    padding: 0px 0px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.form1{
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+}
+
+.testbut{
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
