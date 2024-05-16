@@ -9,6 +9,7 @@ YOLOv8-Flask-Web-App/
 
 ├── app.py                  # Main Flask application script
 ├── requirements.txt        # List of required Python dependencies
+├── README.md
 ├── templates/
 │   ├── index.html           # HTML template for the web interface
 │   └── ... (other templates) # Optional additional templates
