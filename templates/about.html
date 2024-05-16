@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>AIvita</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <img src="{{ url_for('static', filename='logo-removebg-preview.png') }}" alt="aivita" class="logo">
+                <ul>
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('about')}}">About</a></li>
+                    <li><a href="{{url_for('technology')}}">Technology</a></li>                    
+                    <li><a href="{{url_for('contact')}}">Contact</a></li>
+                </ul>
+                <a href="gitty" class="btn">Github</a>
+            </nav>
+
+            <div class="content">
+                <h1>AIvita</h1>
+                <br>
+                <h3 style="font-size: 25px; color: gold; border-bottom: gold 1px solid;">About</h3><br>
+                <p style="font-size: 20px;">AIvita is a collaborative project undertaken by students from the National University of 
+                    Sciences and Technology (NUST), Pakistan. Our goal is to leverage the power of Artificial Intelligence 
+                    (AI) to create a user-friendly and accessible tool for blood cell analysis. We envisioned an AI-powered
+                     solution that could address these limitations. This web application is our contribution to making blood 
+                     cell analysis faster, more efficient, and more widely available.
+                </p><br>
+                <h3 style="font-size: 25px; color: gold; border-bottom: gold 1px solid;">Our Team</h3><br>
+                <p style="font-size: 20px;">
+                    This project is the result of the dedication and hard work of a team of NUST students with a passion for innovation and social impact.
+                    <br><br><span style="color: crimson;">Supervisors: Asst. Prof. Dr. Mahrukh Liaqat and Asst. Prof. Sobia Hayee</span>
+                    <br><br><span style="color: crimson;">Team Members: Mustafa, Abdul Moiz, Javeria and Hassaan</span>
+                    <br><br>
+                    We are committed to continually developing and improving this application to enhance its accuracy, functionality, and accessibility.
+                    We welcome your feedback and suggestions. Please feel free to contact us through the provided channels
+                    We believe this AI-powered blood cell counting tool has the potential to revolutionize blood analysis, making it faster, more accurate, and more accessible for everyone.
+                </p>
+             </div>
+            <br><br><br>
+            
+            <div class="borderdiv">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="botmenu">
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='pi-removebg-preview.png') }}" alt="raspberry pi" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='ocv-removebg-preview.png') }}" alt="open cv" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='ultralytics_yolov8_image-removebg-preview.png') }}" alt="yolo v8" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='docker-removebg-preview.png') }}" alt="docker" style="height: 75px; width: 150px;">
+                </div>                
+            </div>
+            <div>
+                <br>
+                <p  style="color: white; text-align: center; ">College of Electical & Mechanical Engineering</p>
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>AIvita</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <img src="{{ url_for('static', filename='logo-removebg-preview.png') }}" alt="aivita" class="logo">
+                <ul>
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('about')}}">About</a></li>
+                    <li><a href="{{url_for('technology')}}">Technology</a></li>                    
+                    <li><a href="{{url_for('contact')}}">Contact</a></li>
+                </ul>
+                <a href="gitty" class="btn">Github</a>
+            </nav>
+
+            <div class="content">
+                <h1>AIvita</h1>
+                <br>
+                <h3 style="font-size: 35px; color: gold; text-align: center; border-bottom: gold 1px solid;">Contact</h3><br>
+                <p style="color: crimson;;"><img src="{{ url_for('static', filename='phone_logo.png') }}" alt="Phone Number" style="float: left; height: 25px;width: 25px;">
+                    &nbsp;+92-313-4922494
+                </p>
+                <p style="color: crimson;"><img src="{{ url_for('static', filename='mail_logo.png') }}" alt="Email" style="float: left; height: 25px;width: 25px">
+                    &nbsp;mustafa25shahid@gmail.com
+                </p>
+                <p style="color: crimson;"><img src="{{ url_for('static', filename='address_logo.png') }}" alt="Email" style="float: left; height: 25px;width: 25px">
+                    &nbsp;College of E&ME, Rawalpindi, Punjab, Pakistan
+                </p>
+            </div>
+            <br><br><br>
+            
+            <div class="borderdiv">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="botmenu">
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='pi-removebg-preview.png') }}" alt="raspberry pi" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='ocv-removebg-preview.png') }}" alt="open cv" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='ultralytics_yolov8_image-removebg-preview.png') }}" alt="yolo v8" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='docker-removebg-preview.png') }}" alt="docker" style="height: 75px; width: 150px;">
+                </div>                
+            </div>
+            <div>
+                <br>
+                <p  style="color: white; text-align: center; ">College of Electical & Mechanical Engineering</p>
+            </div>
+
+        </div>
+    </body>
+</html>
