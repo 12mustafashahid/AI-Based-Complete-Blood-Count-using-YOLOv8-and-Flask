@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>AIvita</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <img src="{{ url_for('static', filename='logo-removebg-preview.png') }}" alt="aivita" class="logo">
+                <ul>
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('about')}}">About</a></li>
+                    <li><a href="{{url_for('technology')}}">Technology</a></li>                    
+                    <li><a href="{{url_for('contact')}}">Contact</a></li>
+                </ul>
+                <a href="https://github.com/12mustafashahid/YOLOv8-Flask-Web-App" class="btn">Github</a>
+            </nav>
+
+            <div class="content">
+                <h1>AIvita</h1>
+                <br>
+                    <p>Next-gen clinical diagnosis using <span>Artificial Intelligence</span>
+                    <ul style="float: right; list-style:circle ; margin-top: -140px; font-size: 35px; padding-right: 100px;">
+                    <li style="margin-bottom: 10px; font-style: italic;">Fast</li>
+                    <li style="margin-bottom: 10px; font-style: italic">Accurate</li>
+                    <li style="margin-bottom: 10px; font-style: italic">Reliable</li>
+                    </ul>
+                    </p>
+
+            </div>
+            <br><br><br>
+            <div class="bar2">
+
+                <div class="bar2b">
+                    <a href="{{url_for('testing')}}">Start Testing</a>
+                </div>
+
+                <div class="bar2b">
+                    <a href="duppon">Tutorial</a>
+                </div>                
+
+            </div>
+            <div class="borderdiv">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="botmenu">
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='pi-removebg-preview.png') }}" alt="raspberry pi" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='ocv-removebg-preview.png') }}" alt="open cv" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='ultralytics_yolov8_image-removebg-preview.png') }}" alt="yolo v8" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='docker-removebg-preview.png') }}" alt="docker" style="height: 75px; width: 150px;">
+                </div>                
+            </div>
+            <div>
+                <br>
+                <p  style="color: white; text-align: center; ">College of Electrical & Mechanical Engineering</p>
+            </div>
+
+        </div>
+    </body>
+</html>

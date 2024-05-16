@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>AIvita</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <img src="{{ url_for('static', filename='logo-removebg-preview.png') }}" alt="aivita" class="logo">
+                <ul>
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('about')}}">About</a></li>
+                    <li><a href="{{url_for('technology')}}">Technology</a></li>                    
+                    <li><a href="{{url_for('contact')}}">Contact</a></li>
+                </ul>
+                <a href="https://github.com/12mustafashahid/YOLOv8-Flask-Web-App" class="btn">Github</a>
+            </nav>
+
+            <div class="content">
+                <h1 style="font-family: 'poppins', sans-serif; padding-left: 10px;">AIvita</h1>
+                <br>
+                <h2 style="text-align: center; font-family: 'poppins', sans-serif;">Results</h2>
+                <br><br>
+                <h3 style="font-family: 'poppins', sans-serif; padding-left: 100px;">Red Blood Cells: <span style="color: red;"><h3>{{rbc}}</h3></span> </h3>
+                <br>
+                <h3 style="font-family: 'poppins', sans-serif; padding-left: 100px;">White Blood Cells: <span style="color: purple;"><h3>{{wbc}}</h3></span>
+                <br>
+                <h3 style="font-family: 'poppins', sans-serif; padding-left: 100px;">Platelets: <span style=" color: maroon;"> <h3>{{platelets}}</h3></span></h3>
+             </div>
+            <br><br><br>
+            
+            <div class="borderdiv">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="botmenu">
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='pi-removebg-preview.png') }}" alt="raspberry pi" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='ocv-removebg-preview.png') }}" alt="open cv" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='ultralytics_yolov8_image-removebg-preview.png') }}" alt="yolo v8" style="height: 75px; width: 150px;">
+                </div>
+                <div class="botimage">
+                    <img src="{{ url_for('static', filename='docker-removebg-preview.png') }}" alt="docker" style="height: 75px; width: 150px;">
+                </div>                
+            </div>
+            <div>
+                <br>
+                <p  style="color: white; text-align: center; ">College of Electical & Mechanical Engineering</p>
+            </div>
+
+        </div>
+    </body>
+</html>
