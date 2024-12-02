@@ -1,6 +1,6 @@
 # Blood Cells Detection and Counting Web App with Flask and YOLOv8
 
-This repository provides a user-friendly web application using YOLOv8, a powerful object detection model from Ultralytics https://www.ultralytics.com/. The app is built with Flask, a lightweight web framework for Python https://flask.palletsprojects.com/.
+This repository provides a user-friendly web application for swift blood cell counts using a custom trained YOLOv8 model. YOLO is a powerful object detection model from Ultralytics (https://www.ultralytics.com/) capable of giving high accuracy combined with low hardware requirements. The app is built with HTML, CSS and Flask, a lightweight web framework for Python (https://flask.palletsprojects.com/).
 
 
 ## Project Structure
